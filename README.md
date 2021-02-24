@@ -1,2 +1,2 @@
 # trabalhoEtec
-trabalho realizado na ETEC
+Trabalhos realizado na ETEC
