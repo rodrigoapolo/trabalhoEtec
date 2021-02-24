@@ -1,2 +1,2 @@
-# trabalhosEtec
+# trabalhoEtec
 Trabalhos realizado na ETEC
