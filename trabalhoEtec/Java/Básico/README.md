@@ -1,2 +1,2 @@
 # trabalhoEtec
-Trabalhos realizado na ETEC
+Trabalhos realizado na ETEC en Java estruturado.
