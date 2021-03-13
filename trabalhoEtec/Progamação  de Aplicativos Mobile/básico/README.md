@@ -1,2 +1,2 @@
-# trabalhoEtec
-Trabalhos realizado na ETEC aprendendo a fazer o MER para programar em SQL.
+# Android Studio
+Trabalhos realizado na ETEC, aprendendo a fazer aplicativos com os conceitos básicos.
