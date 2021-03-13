@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+   <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:stretchColumns="3"
+       android:layout_marginBottom="10dp">
+
+     <TableRow android:background="#FFFBFB">
+        <TextView android:text="Código" android:padding="15dp" android:textColor="#1B61ED"/>
+        <TextView android:text="Especificação" android:padding="15dp" android:textColor="#1B61ED"/>
+        <TextView android:text="Preço" android:padding="15dp" android:textColor="#1B61ED"/>
+
+     </TableRow>
+
+    <TableRow android:background="#887D7D">
+     <TextView android:text="1" android:padding="15dp" android:textColor="#1B61ED"/>
+     <TextView android:text="Cachorro Quente" android:padding="15dp" android:textColor="#1B61ED"/>
+     <TextView android:text="$4,00" android:padding="15dp" android:textColor="#1B61ED"/>
+
+    </TableRow>
+
+    <TableRow android:background="#FBFBFB">
+     <TextView android:text="2" android:padding="15dp" android:textColor="#1B61ED"/>
+     <TextView android:text="X-Salada" android:padding="15dp" android:textColor="#1B61ED"/>
+     <TextView android:text="R$ 4,50" android:padding="15dp" android:textColor="#1B61ED"/>
+
+    </TableRow>
+
+ <TableRow android:background="#887D7D">
+  <TextView android:text="3" android:padding="15dp" android:textColor="#1B61ED"/>
+  <TextView android:text="X-Bacon" android:padding="15dp" android:textColor="#1B61ED"/>
+  <TextView android:text="R$ 5,00" android:padding="15dp" android:textColor="#1B61ED"/>
+
+ </TableRow>
+
+ <TableRow android:background="#FBFAFA">
+  <TextView android:text="4" android:padding="15dp" android:textColor="#1B61ED"/>
+  <TextView android:text="Torrada simples" android:padding="15dp" android:textColor="#1B61ED"/>
+  <TextView android:text="R$ 2,00" android:padding="15dp" android:textColor="#1B61ED"/>
+
+ </TableRow>
+
+ <TableRow android:background="#887D7D">
+  <TextView android:text="5" android:padding="15dp" android:textColor="#1B61ED"/>
+  <TextView android:text="Refrigerante" android:padding="15dp" android:textColor="#1B61ED"/>
+  <TextView android:text="R$ 1,50" android:padding="15dp" android:textColor="#1B61ED"/>
+
+ </TableRow>
+
+   </TableLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o codigo:"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="codigo"
+        android:inputType="number"
+        android:id="@+id/etCod"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite a quantidade"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="quantidade"
+        android:inputType="number"
+        android:id="@+id/etQuan"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="total"
+        android:onClick="total"
+        android:background="#F00"/>
+</LinearLayout>

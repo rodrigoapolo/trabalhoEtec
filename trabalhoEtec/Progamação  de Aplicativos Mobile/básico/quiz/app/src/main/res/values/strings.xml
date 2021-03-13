@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">quiz</string>
+    <string name="prompVariavel">promtVariavel</string>
+
+    <string-array name="variavel">
+        <item>seleciona</item>
+        <item>Double</item>
+        <item>Char</item>
+        <item>Float</item>
+        <item>string</item>
+    </string-array>
+</resources>
