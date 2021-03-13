@@ -1,2 +1,2 @@
-# trabalhoEtec
-Trabalhos realizado na ETEC em Java estruturado.
+# Java estrutura básica
+Trabalhos realizado na ETEC. Aprendendo a programar em Java estruturado.
